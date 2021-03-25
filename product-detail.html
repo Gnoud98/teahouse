@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="/theme/img/logo-ico-.png" />
+    <link rel="stylesheet" href="theme/FE-library/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="theme/FE-library/owl.carousel.min.css">
+    <link rel="stylesheet" href="theme/scss/style.css">
+    <title>Chi tiết sản phẩm</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header__top d-none d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 d-lg-block d-md-none d-sm-none">
+                        <div class="header__top-contact">
+                            <p>
+                                <i> <img src="theme/img/i_phone.png" alt="phone"></i>
+
+                                Hotline: <a href="tel:039 530 7272" class="phone">0395307272</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 d-md-block d-none">
+                        <div class="header__top-right">
+                            <div class="header__top-right-search">
+                                <div class="search">
+                                    <span>
+                                        <i>
+                                            <img src="theme/img/i_search.png" alt="">
+                                        </i>Tìm kiếm
+                                    </span>
+                                    <form action="/search" method="">
+                                        <input type="text" name="" id="" required placeholder="Tìm kiếm...">
+                                        <button type="submit" class="btn">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                                <div class="account">
+                                    <span>
+                                        <i>
+                                            <img src="theme/img/i_user.png" alt="">
+                                        </i>Tài khoản
+                                    </span>
+                                    <div class="account-group">
+                                        <a href="login.html">Đăng nhập</a>
+                                        <a href="register.html">Đăng ký</a>
+                                    </div>
+                                </div>
+                                <div class="cart">
+                                    <div class="cart-icon">
+                                        <div class="cart_header">
+                                            <a href="" class="cart_header-hover" title="Giỏ hàng">
+                                                <div class="card_header-icon">
+                                                    <i>
+                                                        <img src="theme/img/i_cart.png" alt="">
+                                                        <span class="item-count">
+                                                            0
+                                                        </span>
+                                                    </i>
+                                                    <span>Giỏ hàng</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="cart_content">
+                                            <ul id="cart-sidebar" class="mini-product-list">
+                                                <div class="no-item">
+                                                    <p>Không có sản phẩm nào</p>
+                                                </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__main d-none d-lg-block d-xl-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="header__main-content">
+                            <div class="header__main-content-item d-none d-lg-block d-xl-block">
+                                <div class="header__main-nav">
+                                    <div class="row">
+                                        <div class="header__main-nav nav-left hidden-xs hidden-sm col-4">
+                                            <ul >
+                                                <li>
+                                                    <a href="index.html" >
+                                                        Trang chủ
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="about-us.html">
+                                                        Giới thiệu
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item product-item">
+                                                    <a href="collection-all.html"class="current">
+                                                        Sản phẩm
+                                                        <i class="fa fa-caret-down"></i>
+                                                    </a>
+                                                    <ul>
+                                                        <li><a href="collection-item.html">Cà phê</a></li>
+                                                        <li><a href="collection-item.html">Bánh ngọt</a></li>
+                                                        <li><a href="collection-item.html">Smoothies </a></li>
+                                                        <li><a href="collection-item.html">Trà hoa quả </a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="header__main-nav nav-logo col-4">
+                                            <ul>
+                                                <li class="logo">
+                                                    <a href="index.html"
+                                                        class="logo-wrapper d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                                                        <img src="theme/img/logo.png" alt="logo Template Tea House">
+                                                    </a>
+                                                    <a href="index.html"
+                                                        class="logo-wrapper d-none d-sm-block d-md-block d-lg-none d-xl-none">
+                                                        <img src="theme/img/logo.png" alt="logo Template Tea House">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="header__main-nav nav-right hidden-xs hidden-sm col-4">
+                                            <ul>
+                                                <li><a href="news.html">Tin tức</a></li>
+                                                <li><a href="menu-drink.html">Thực đơn</a></li>
+                                                <li><a href="contact.html">Liên hệ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__main-mobile clearfix d-sm-block d-md-block d-lg-none d-xl-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="header-main d-flex position-relative">
+                            <div class="wrap_main d-sm-block d-md-block d-lg-none d-xl-none">
+                                <a href="index.html">
+                                    <img src="theme/img/logo_mobi.png" alt="" class="logo-mb">
+                                </a>
+                            </div>
+                            <div class="cart">
+                                <div class="cart-icon">
+                                    <div class="cart_header">
+                                        <a href="" class="cart_header-hover" title="Giỏ hàng">
+                                            <div class="card_header-icon">
+                                                <i>
+                                                    <img src="theme/img/i_cart.png" alt="">
+                                                    <span class="item-count">
+                                                        0
+                                                    </span>
+                                                </i>
+                                                <span class="d-sm-block d-none">Giỏ hàng</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="cart_content">
+                                        <ul id="cart-sidebar" class="mini-product-list">
+                                            <div class="no-item">
+                                                <p>Không có sản phẩm nào</p>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="search-mb">
+                            <form action="" class="search-bar">
+                                <input type="text" required placeholder="Tìm sản phẩm bạn mong muốn...">
+                                <button class="btn">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="menubutton"><i class="fas fa-bars"></i></span>
+        <div class="overlay"></div>
+        <div class="menu__mb">
+            <div class="menu-close-btn">
+                <svg width="35" height="35" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 8L8 16M8.00003 8L16 16" stroke="#000" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </div>
+
+            <div class="menu__mb-main">
+                <div class="menu__mb-top">
+                    <a href="">Đăng nhập</a> &nbsp;/
+                    <a href="">Đăng ký</a>
+                </div>
+                <div class="menu__mb-content">
+                    <ul class="menu__mb-list">
+                        <li class="menu__mb-item"><a href="index.html">Trang chủ</a></li>
+                        <li class="menu__mb-item"><a href="">Giới thiệu</a></li>
+                        <li class="menu__mb-item">
+                            <a href="">Sản phẩm</a>
+                            <i class="fa fa-plus"></i>
+                            <ul class="menu__mb-list-child">
+                                <li><a href="">
+                                        Cà phê
+                                    </a></li>
+                                <li><a href="">
+                                        Bánh ngọt
+                                    </a></li>
+                                <li><a href="">
+                                        Smoothies
+                                    </a></li>
+                                <li><a href="">
+                                        Trà hoa quả
+                                    </a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__mb-item"><a href="">Tin Tức</a></li>
+                        <li class="menu__mb-item"><a href="">Thực đơn</a></li>
+                        <li class="menu__mb-item"><a href="">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="product-detail">
+        <div class="product__detail">
+            <div class="bread-crumb">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-left">
+                            <nav aria-label="breadcrumbs" class="rank-math-breadcrumb">
+                                <p>
+                                    <a href="index.html">Trang chủ</a>
+                                    <span class="separator"> / </span>
+                                    <a href="collection-item.html">Trà hoa quả</a>
+                                    <span class="separator"> / </span>
+                                    <span class="last">Trà Phúc bồn tử</span>
+                                </p>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__detail-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-12 col-12">
+                            <div class="product__detail-img owl-carousel owl-theme" id="sync1">
+                                <div class="product-img-item">
+                                    <img src="theme/img/7.jpg" alt="">
+                                </div>
+                                <div class="product-img-item">
+                                    <img src="theme/img/8.jpg" alt="">
+                                </div>
+                                <div class="product-img-item">
+                                    <img src="theme/img/9.jpg" alt="">
+                                </div>
+                                <div class="product-img-item">
+                                    <img src="theme/img/10.jpg" alt="">
+                                </div>
+                                <div class="product-img-item">
+                                    <img src="theme/img/11.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="product__detail-img owl-carousel owl-theme" id="sync2">
+                                <div class="product-img-item">
+                                    <img src="theme/img/7.jpg" alt="">
+                                </div>
+                                <div class="product-img-item">
+                                    <img src="theme/img/8.jpg" alt="">
+                                </div>
+                                <div class="product-img-item">
+                                    <img src="theme/img/9.jpg" alt="">
+                                </div>
+                                <div class="product-img-item">
+                                    <img src="theme/img/10.jpg" alt="">
+                                </div>
+                                <div class="product-img-item">
+                                    <img src="theme/img/11.jpg" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-7 col-md-12 col-12">
+                            <form action="" class="add-cart">
+                                <div class="form-header">
+                                    <div class="product-title">
+                                        <h1>Trà dâu tây</h1>
+                                    </div>
+                                    <div class="product-summary">
+                                        <em>Mô tả đang cập nhật</em>
+                                    </div>
+                                </div>
+                                <div class="form-body">
+                                    <div class="box-price">
+                                        <span class="price">Giá :</span>
+                                        <span class="product-price">40,000đ</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="product-quantity">
+                                            <label for="">
+                                                Số lượng:
+                                            </label>
+                                            <div class="product-input-number">
+                                                <button type="button" class="btn-minus minus">
+                                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M4 12L20 12" stroke="#282828" stroke-width="1.5"
+                                                            stroke-linecap="round" stroke-linejoin="round" />
+                                                    </svg>
+                                                </button>
+                                                <input type="text" value="1" class="pro-quantily" max="10" min="0">
+                                                <button type="button" class="btn-plus plus">
+                                                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12 4V20M4 12L20 12" stroke="#282828"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="btn-buy">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <button type="submit" class="add-to-cart">
+                                                        <span class="add-cart-text">
+                                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path
+                                                                    d="M17 17C15.8954 17 15 17.8954 15 19C15 20.1046 15.8954 21 17 21C18.1046 21 19 20.1046 19 19C19 17.8954 18.1046 17 17 17ZM17 17H7.36729C6.86964 17 6.44772 16.6341 6.37735 16.1414L6.07143 14M2 3H4.5L4.78571 5M4.78571 5H5H21L18 14H6.5H6.07143M4.78571 5L6.07143 14M11 19C11 20.1046 10.1046 21 9 21C7.89543 21 7 20.1046 7 19C7 17.8954 7.89543 17 9 17C10.1046 17 11 17.8954 11 19Z"
+                                                                    stroke="#4d8a54" stroke-width="1.5"
+                                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                            </svg>
+
+                                                            Thêm vào giỏ hàng
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                                <div class="col-lg-6 col-md-6 col-12">
+                                                    <button type="submit" class="buy-now">
+                                                        <span class="buy-now-text">
+                                                            Mua ngay
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+                                    </div>
+                                    <div class="product-policy">
+                                        <p>
+                                            <b>Giao hàng miễn phí:</b>
+                                            Áp dụng đơn hàng > 200.000đ
+                                        </p>
+                                        <p>
+                                            <b>Thanh toán tại nhà:</b>
+                                            Nhanh chóng và an toàn
+                                        </p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__tab">
+                .<div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-12">
+                            <div class="product__tab-item">
+                                <div class="tab">
+                                    <button class="tablinks active" onclick="openTab1(event, 'desc')">
+                                        <h3>Mô tả sản phẩm</h3>
+                                    </button>
+                                    <button class="tablinks" onclick="openTab1(event, 'policy')">
+                                        <h3>Chính sách bảo
+                                            hành</h3>
+                                    </button>
+                                </div>
+                                <div class="product__tab-content">
+                                    <div id="desc" class="tabContent s-content">
+                                        <p>Vải là một loại quả được nhiều người yêu thích không chỉ khi ăn quả hay khi
+                                            chế biến thành món trà vải thơm ngon. Nhân lúc mùa vải đang rộ các bạn hãy
+                                            thử tự làm cho mình những cốc trà vải thật ngon để thưởng thức trong hè nha.
+                                        </p>
+                                        <br>
+                                        <p>Nguyên liệu pha trà vải cho 3 người :</p>
+                                        <br>
+                                        <p>2 gói trà lipton túi lọc</p>
+                                        <br>
+                                        <p>-300ml nước sôi</p>
+                                        <br>
+                                        <p>-20g đường ( khoảng 2 thìa canh)</p>
+                                        <br>
+                                        <p>-1 lon trái vải đóng hộp hoặc 10 quả vải.</p>
+                                        <br>
+                                        <p>-1 chén đá lạnh</p>
+                                        <br>
+                                        <p>-Nếu sử dụng vải đóng hộp, khi pha trà vải bạn cho thêm 3 thìa canh nươc vải
+                                            đóng hộp vào bình trước khi lắc.</p>
+                                        <br>
+                                        <p>-Đối với trà túi lọc bạn nên chọn loại có mùi nhẹ để không át đi mùi vải.</p>
+                                        <br>
+                                        <p>-Bạn có thể tạo hương vị cho món trà vải bằng cách cho thêm 1 chút nước cốt
+                                            chanh hoặc 1 thìa sữa đặc, giảm lượng đường đi nếu muốn.</p>
+
+                                    </div>
+
+                                    <div id="policy" class="tabContent s-content">
+                                        <p>Nội dung tùy chỉnh viết ở đây</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product__same section-mt">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="heading-title text-center">
+                                <h2>
+                                    Có thể bạn thích
+                                </h2>
+                            </div>
+                            <div class="product__same-content">
+                                <div class="product__same-list owl-carousel owl-theme">
+                                    <div class="product-item">
+                                        <div class="product-item-main">
+                                            <form action="" method="POST">
+                                                <div class="product-thumbnail">
+                                                    <a href="" class="product-img">
+                                                        <img src="theme/img/6.jpg" alt="Trà đào">
+                                                    </a>
+                                                    <div class="add-cart">
+                                                        <button class="btn-buy">Thêm vào giỏ
+                                                            hàng</button>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <h3 class="product-name">
+                                                        <a href="" title="Trà Phúc bồn tử">Trà Phúc bồn
+                                                            tử</a>
+                                                    </h3>
+                                                    <div class="price-box">
+                                                        <span class="price">Giá :</span>
+                                                        40.000đ
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="product-item">
+                                        <div class="product-item-main">
+                                            <form action="" method="POST">
+                                                <div class="product-thumbnail">
+                                                    <a href="" class="product-img">
+                                                        <img src="theme/img/6.jpg" alt="Trà đào">
+                                                    </a>
+                                                    <div class="add-cart">
+                                                        <button class="btn-buy">Thêm vào giỏ
+                                                            hàng</button>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <h3 class="product-name">
+                                                        <a href="" title="Trà Phúc bồn tử">Trà Phúc bồn
+                                                            tử</a>
+                                                    </h3>
+                                                    <div class="price-box">
+                                                        <span class="price">Giá :</span>
+                                                        40.000đ
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="product-item">
+                                        <div class="product-item-main">
+                                            <form action="" method="POST">
+                                                <div class="product-thumbnail">
+                                                    <a href="" class="product-img">
+                                                        <img src="theme/img/6.jpg" alt="Trà đào">
+                                                    </a>
+                                                    <div class="add-cart">
+                                                        <button class="btn-buy">Thêm vào giỏ
+                                                            hàng</button>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <h3 class="product-name">
+                                                        <a href="" title="Trà Phúc bồn tử">Trà Phúc bồn
+                                                            tử</a>
+                                                    </h3>
+                                                    <div class="price-box">
+                                                        <span class="price">Giá :</span>
+                                                        40.000đ
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="product-item">
+                                        <div class="product-item-main">
+                                            <form action="" method="POST">
+                                                <div class="product-thumbnail">
+                                                    <a href="" class="product-img">
+                                                        <img src="theme/img/6.jpg" alt="Trà đào">
+                                                    </a>
+                                                    <div class="add-cart">
+                                                        <button class="btn-buy">Thêm vào giỏ
+                                                            hàng</button>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <h3 class="product-name">
+                                                        <a href="" title="Trà Phúc bồn tử">Trà Phúc bồn
+                                                            tử</a>
+                                                    </h3>
+                                                    <div class="price-box">
+                                                        <span class="price">Giá :</span>
+                                                        40.000đ
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="product-item">
+                                        <div class="product-item-main">
+                                            <form action="" method="POST">
+                                                <div class="product-thumbnail">
+                                                    <a href="" class="product-img">
+                                                        <img src="theme/img/6.jpg" alt="Trà đào">
+                                                    </a>
+                                                    <div class="add-cart">
+                                                        <button class="btn-buy">Thêm vào giỏ
+                                                            hàng</button>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info">
+                                                    <h3 class="product-name">
+                                                        <a href="" title="Trà Phúc bồn tử">Trà Phúc bồn
+                                                            tử</a>
+                                                    </h3>
+                                                    <div class="price-box">
+                                                        <span class="price">Giá :</span>
+                                                        40.000đ
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="footer__content">
+            <div class="footer__content-main">
+                <div class="footer__content-mid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 col-12">
+                                <div class="footer__logo">
+                                    <a href="" class="logo-wrapper" title="logo Template Tea House">
+                                        <img src="theme/img/logo.png" alt="logo Template Tea House">
+                                    </a>
+                                </div>
+                                <div class="footer__text">
+                                    <p>
+                                        Chúng tôi mong muốn Tea House sẽ trở thành “Nhà Trà", nơi mọi người xích lại gần
+                                        nhau và tìm thấy niềm vui, sự sẻ chia thân tình bên những tách cà phê đượm
+                                        hương,chất lượng.
+                                    </p>
+                                </div>
+                                <div class="footer__social">
+                                    <div class="footer__social-list">
+                                        <a class="tw" href="https://twitter.com" title="Theo dõi trên Twitter"><i
+                                                class="fab fa-twitter"></i></a>
+                                        <a class="fb" href="https://www.facebook.com/" title="Theo dõi trên Facebook"><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a class="pi" href="https://www.pinterest.com/"
+                                            title="Theo dõi trên Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                                        <a class="go" href="https://google.com.vn" title="Theo dõi trên Google"><i
+                                                class="fab fa-google-plus-g"></i></a>
+                                        <a class="yt" href="https://www.youtube.com/" title="Theo dõi trên Youtube"><i
+                                                class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="footer__mid">
+                                    <h4 class="title-menu">
+                                        Liên hệ với chúng tôi
+                                    </h4>
+                                    <div class="work-contact">
+                                        <div class="content-contact clearfix">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                            <span>
+                                                <b>Địa chỉ</b>
+                                                Tâng 6 toà nhà Ladeco, 266 Đội Cấn, phường Liễu Giai, Hà Nội, Vietnam
+                                            </span>
+                                        </div>
+                                        <div class="content-contact clearfix">
+                                            <i class="fas fa-phone"></i>
+                                            <span>
+                                                <b>Hotline đặt bàn :</b>
+                                                <a href="tel:19001000"> 19001000</a>
+                                            </span>
+                                            <span>
+                                                <b>Hotline giao hàng :</b>
+                                                <a href="tel:19001000"> 19001000</a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="footer__mid footer__right">
+                                    <h4 class="title-menu">
+                                        Đăng ký nhận khuyến mãi
+                                    </h4>
+                                </div>
+                                <div class="footer__right-text">
+                                    <p>
+                                        Đừng bỏ lỡ những sản phẩm và chương trình khuyến mãi hấp dẫn
+                                    </p>
+                                </div>
+                                <form action="" class="email-form">
+                                    <div class="input-group">
+                                        <input type="email" placeholder="Email của bạn" required>
+                                        <button type="submit" class="btn">Đăng ký</button>
+                                    </div>
+
+                                </form>
+                            </div>
+                            <div class="col-xl-12 col-12">
+                                <div class="border_footer">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__content-bottom">
+                    <div class="copyright clearfix">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 text-center">
+                                    <span class="copyright-text">
+                                        &#169 Bản quyền thuộc về
+                                        <b>Hanzo Media</b>
+                                        <span>|</span>
+                                    </span>
+
+                                    <span class="copyright-text">
+                                        Cung cấp bởi
+                                        <a href="">Hanzo Media</a>
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="backTop">
+        <a href="" title="Lên dầu trang">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </a>
+    </div>
+    <script src="theme/FE-library/bootstrap.min.js"></script>
+    <script src="theme/FE-library/jquery.min.js"></script>
+    <script src="theme/FE-library/owl.carousel.min.js"></script>
+   
+    <script src="theme/js/index.js"></script>
+</body>
+
+</html>

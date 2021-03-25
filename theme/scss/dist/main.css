@@ -1,0 +1,244 @@
+@font-face {
+  src: url(../fonts/Quicksand-Bold.ttf);
+  font-family: "Quicksand-Bold";
+}
+@font-face {
+  src: url(../fonts/Quicksand-Light.ttf);
+  font-family: "Quicksand";
+}
+@font-face {
+  src: url(../fonts/Quicksand-Medium.ttf);
+  font-family: "Quicksand-md";
+}
+@font-face {
+  src: url(../fonts/UTM.ttf);
+  font-family: "UTM";
+}
+.owl-nav .owl-next:hover, .owl-nav .owl-prev:hover, .panination ul li a:hover, .bread-crumb nav a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn {
+  display: inline-block;
+  height: 40px;
+  line-height: 39px;
+  padding: 0 20px;
+  text-align: center;
+  white-space: nowrap;
+  outline: none !important;
+  cursor: pointer;
+  border: none;
+  font-weight: 400;
+  border-radius: 0;
+  letter-spacing: 0;
+  box-shadow: none !important;
+}
+
+.heading-title h1,
+.heading-title h2,
+.heading-title h4 {
+  font-family: "UTM";
+  font-size: 40px;
+  color: #282828;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: normal;
+  display: inline-block;
+  position: relative;
+}
+.heading-title h1::before,
+.heading-title h2::before,
+.heading-title h4::before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/title_base.png);
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 27px;
+  top: 2px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.scale-hover {
+  display: block;
+  overflow: hidden;
+}
+.scale-hover img {
+  transition: all 0.3s ease-out;
+}
+.scale-hover:hover img {
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+}
+
+.owl-dots {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.owl-dots .owl-dot {
+  border-radius: 50%;
+  border: 0;
+  background-color: #282828;
+  padding: 0;
+  margin: 10px 5px;
+  font-size: 0;
+  width: 7px;
+  height: 7px;
+}
+.owl-dots .owl-dot.active {
+  border-color: #4d8a54;
+  background-color: #4d8a54;
+}
+
+#backTop {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 99;
+  top: auto !important;
+  width: 30px;
+  height: 30px;
+  line-height: 29px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  border-radius: 30px;
+  background: #000;
+  text-decoration: none;
+  opacity: 0;
+}
+#backTop:hover {
+  background: #4d8a54;
+}
+#backTop a {
+  color: #fff;
+}
+#backTop a:focus {
+  outline: none;
+}
+
+#backTop.show {
+  opacity: 1 !important;
+}
+
+.s-content {
+  font-size: 14px;
+  color: #282828;
+  font-family: "Quicksand-md";
+  line-height: 1.7;
+}
+
+.bread-crumb {
+  background: #fff;
+  margin-bottom: 30px;
+  border-top: 1px solid #ebebeb;
+}
+.bread-crumb nav {
+  font-family: "Quicksand-md";
+  font-size: 14px;
+  padding: 15px 0px;
+}
+.bread-crumb nav a {
+  color: #282828;
+}
+.bread-crumb nav a:hover {
+  text-decoration: none;
+  color: #4d8a54;
+}
+.bread-crumb nav .last {
+  color: #4d8a54;
+}
+
+.panination {
+  margin: 20px 0px;
+}
+.panination ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.panination ul li.active a {
+  background: #4d8a54;
+  color: #fff;
+}
+.panination ul li a {
+  font-family: "Quicksand-Bold";
+  float: left;
+  margin: 0 2.5px;
+  border-radius: 5px;
+  width: 41px;
+  background: #f6f6f6;
+  border: solid 1px #ebebeb;
+  text-align: center;
+  height: 41px;
+  font-size: 19px;
+  padding: 0;
+  line-height: 41px;
+  color: #282828;
+  text-decoration: none;
+}
+.panination ul li a:hover {
+  background: #4d8a54;
+  color: #fff;
+}
+.panination ul li a:hover svg path {
+  stroke: #fff;
+}
+
+.img-hover-scale {
+  overflow: hidden;
+  display: block;
+}
+.img-hover-scale img {
+  width: 100%;
+}
+.img-hover-scale img:hover {
+  transform: scale(1.15);
+  transition: 0.3s;
+}
+
+.owl-nav {
+  position: absolute;
+  top: -46px;
+  right: 45px;
+  display: flex;
+}
+.owl-nav .owl-prev {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #ebebeb;
+  left: -60px;
+}
+.owl-nav .owl-prev:hover {
+  background: #4d8a54;
+  color: #fff;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #ebebeb;
+}
+.owl-nav .owl-next:hover {
+  background: #4d8a54;
+  color: #fff;
+}
+.owl-nav i {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  font-size: 16px;
+}

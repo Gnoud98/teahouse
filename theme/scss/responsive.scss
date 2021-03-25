@@ -1,0 +1,110 @@
+@media (max-width: 991px) {
+    #header {
+        .menubutton {
+            display: block;
+            left: 30px;
+            top: 45px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #header .menubutton {
+        display: block;
+        left: 40px;
+        top: 45px;
+    }
+    #main .section-mt {
+        margin-top: 50px;
+    }
+    #footer .border_footer {
+        padding-top: 30px;
+    }
+   
+}
+@media (max-width: 480px) {
+    .heading-title h1,
+    .heading-title h2,
+    .heading-title h4 {
+        font-size: 28px;
+    }
+    .section-5 .section__time-open .time__open-content {
+        p {
+            font-size: 12px;
+            margin: 5px 0;
+        }
+        .time {
+            font-size: 12px;
+        }
+        .book-now-btn {
+            padding: 0 15px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 12px;
+            margin-top: 18px;
+        }
+    }
+    .section-5 .time__open-left {
+        padding: 30px 15px 30px 15px;
+        min-height: 230px;
+    }
+    .category__product .category__product-slider .category__product-item .category__product-item-name h3{
+        font-size: 14px;
+    margin-top: 10px;
+    }
+    .footer__content {
+        padding: 50px 0 0 0 !important;
+    }
+   .form-body{
+    .product-policy {       
+        padding-top: 80px;
+    }
+    .buy-now {
+        margin-top: 15px;
+    }
+   } 
+   .product__tab-item .tablinks {
+    background: #fff;
+    outline: none;
+    width: 100%;
+    h3{
+        font-size: 14px !important;
+    }
+}
+.register__form-content,.form-login{
+    padding: 0 20px !important;
+
+}
+.login-page{
+    padding: 0 !important;
+}
+#main{
+    .why__us{
+        padding: 50px 0 0 0;
+    }
+    .section__tab-product{
+        padding: 0;
+    }
+}
+#footer{
+    .footer__content .footer__content-mid .footer__mid{
+        margin-top: 30px;
+    }
+}
+}
+@media(max-width:414px){
+    #header .menubutton {      
+        left: 16px;       
+    }
+    .cart .cart-icon .cart_header-hover .card_header-icon i {
+        left: -6px;
+    }
+}
+@media(max-width:360px){
+    .menu__mb .menu__mb-main {
+        width: 320px !important;      
+    }
+    .menu__mb .menu-close-btn {
+        right: 56px !important;    
+    }
+}
